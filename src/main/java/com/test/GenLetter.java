@@ -14,7 +14,7 @@ import static com.test.utils.StringUtil.reName;
 // 这个脚本的目的，根据车牌所属单位（联系人），车牌号，日期，检测站点自动生成函告单
 public class GenLetter {
     public static void main(String[] args) throws DocumentException, IOException {
-        String fontPath = "E:\\OneDrive - vip.henu.edu.cn\\Codes\\WorkUtils\\src\\main\\resources\\font\\FZ-FangSong_GBK.TTF";
+        String fontPath = "D:\\Codes\\Java\\WorkUtils\\src\\main\\resources\\font\\FZ-FangSong_GBK.TTF";
         // 审核通过车辆信息的Excel文件
         String file = "C:\\Users\\Pangpd\\Desktop\\1.xlsx";
         // 源母版pdf路径

@@ -40,7 +40,7 @@ public class FileUtil {
         }
         String[] title = {"检测站点", "检测时间", "车牌", "车牌颜色","轴数", "总重T", "超限T", "超限比例%", "运输公司", "地址", "联系电话","审核意见"};
         if (fields != null) {
-            String fileName = siteCode + ".xls"; //文件名
+            String fileName = "非现场数据统计" + ".xls"; //文件名
             File myFile = new File(path + fileName);
             try {
                 WritableWorkbook writableWorkbook = Workbook.createWorkbook(myFile); //定义工作簿对象

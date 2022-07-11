@@ -17,9 +17,9 @@ public class RunMain2 {
         String casePreURL = "http://172.28.171.11:800/api/off/site/getOffSiteIllegal?";
 
         //  查询日期（开始）  年-月-日
-        String beginTime = "2022-01-21";
+        String beginTime = "2022-03-01";
         //  查询日期（截止）  年-月-日
-        String endTime = "2022-02-28";
+        String endTime = "2022-03-31";
         // 页码，默认为1不修改
         int pageNum = 1;
         // 每页显示的数据数，默认数据不修改！
